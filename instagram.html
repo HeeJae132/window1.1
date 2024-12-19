@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comment Section</title>
+  <link rel="stylesheet" href="instagram.css">
+</head>
+<body>
+  <div class="instagrambody">
+  <div class="incontainer">
+    <div class="a"> 
+      <img src="instagram.png" alt="Instagram Image">
+    </div>
+    <div class="right-container">
+      <!-- 댓글 작성 영역 -->
+      <div class="b">
+        <textarea class="textbox" placeholder></textarea>
+        <button class="submit-btn" onclick="addComment()">send</button>
+      </div>
+      <!-- 댓글 표시 영역 -->
+      <div class="c" id="comment-section">
+        <div class="comment">User1: good</div>
+        <div class="comment">User2: good paint</div>
+        <div class="comment">User3: Is this you?</div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="instagram.js"></script>
+</body>
+</html>
